@@ -13,13 +13,13 @@ public class Program
         {
             Console.WriteLine(">>>>Calculadora<<<<\n");
 
-            Console.WriteLine("1 - Soma");
-            Console.WriteLine("2 - Subtração");
-            Console.WriteLine("3 - Divisão");
-            Console.WriteLine("4 - Multiplicação");
-            Console.WriteLine("5 - Sair\n");
+            Console.WriteLine("1 - Soma\n" 
+                + "2 - Subtração\n"
+                + "3 - Divisão\n"
+                + "4 - Multiplicação\n"
+                + "5 - Sair\n");
 
-            Console.WriteLine("Escolha a operação que deseja realizar: ");
+            Console.Write("Escolha a operação que deseja realizar: ");
 
             operacao = Convert.ToInt32(Console.ReadLine());
 
